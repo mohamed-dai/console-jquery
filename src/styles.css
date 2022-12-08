@@ -1,3 +1,42 @@
-body {
-  font-family: sans-serif;
+#container {
+  /* font-family: "Courier New", monospace; */
+  /* text-align: center; */
+}
+
+body,
+button {
+  font-family: "Courier New", monospace;
+  font-size: xx-large;
+}
+
+#Query,
+#Options,
+#Option {
+  margin: 0px 5px;
+}
+
+#Option {
+  background-color: aliceblue;
+  border: 1px solid grey;
+}
+
+#Pipe {
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: #000;
+  }
+  49% {
+    color: #000;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #000;
+  }
 }
